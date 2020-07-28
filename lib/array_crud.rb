@@ -4,7 +4,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  famous_cats << "Garfield"
+  famous_cats << ["Garfield", "Maui", "Spinner", "Jamie"]
   
 end
 
