@@ -30,11 +30,9 @@ end
 
 def retrieve_first_element_from_array(array)
   array[0]
-end	end
+end
 
-
-def retreive_last_element_from_array(array)	def retreive_last_element_from_array(array)
-
+def retreive_last_element_from_array(array)	def 
   x = array.count
   array[x-1]
 end
