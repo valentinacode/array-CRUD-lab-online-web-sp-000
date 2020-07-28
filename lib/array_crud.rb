@@ -9,7 +9,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  famous_cats << "Toto"
+  famous_cats.push("Toto")
   
 end
 
