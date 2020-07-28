@@ -9,6 +9,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
+  famous_cats = ["Garfield", "Maui", "Spinner", "Jamie"]
+  famous_cats 
   
 end
 
