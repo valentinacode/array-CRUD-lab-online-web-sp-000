@@ -1,30 +1,40 @@
 def create_an_empty_array
-  [ ]
-  
-end
 
-def create_an_array
-  famous_cats = ["Garfield", "Maui", "Spinner", "Jamie"]
-  
-end
+  []  
+end	end
 
-def add_element_to_end_of_array(array, element)
- array << element
-end
 
-def add_element_to_start_of_array(array, element)
+def create_an_array	def create_an_array
+
+  ["dog", "cat", "fish", "owl"]
+end	end
+
+
+def add_element_to_end_of_array(array, element)	def add_element_to_end_of_array(array, element)
+
+  array << element
+end	end
+
+
+def add_element_to_start_of_array(array, element)	def add_element_to_start_of_array(array, element)
+
   array.unshift(element)
-end
+end	end
 
-def remove_element_from_end_of_array(array)
-  array.pop   
-end
 
-def remove_element_from_start_of_array(array)
+def remove_element_from_end_of_array(array)	def remove_element_from_end_of_array(array)
+
+  array.pop
+end	end
+
+
+def remove_element_from_start_of_array(array)	def remove_element_from_start_of_array(array)
+
   array.shift
-end
+end	end
 
-def retreive_element_from_index(array, index_number)
+
+def retreive_element_from_index(array, index_number)	def retreive_element_from_index(array, index_number)
 
   array[index_number]
 end	end
@@ -40,5 +50,4 @@ def retreive_last_element_from_array(array)	def retreive_last_element_from_array
 
   x = array.count
   array[x-1]
-end 
-end 
+end 	end 
